@@ -1,0 +1,243 @@
+body{
+    background: #F3F5FC;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.principal{
+    margin: 5px;
+    
+}
+.textoEntrada{
+    text-align: center;
+    padding: 20px;
+   
+}
+.encriptar{
+ 
+    display: block;
+    position: relative;
+    height: 60vh;
+    margin: 20px auto;
+    background: #F3F5FC;
+    width: 100%;
+    font-size: 25px;
+    border-style: none;
+}
+.textoSalida{
+   /* display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 100%;*/
+    padding: 5px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+}
+.textoSalida{
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+
+.muneco {
+    width: 336px;
+    height: 304px;
+    visibility: hidden;
+    display: none;
+  }
+/*  .texto1{
+    text-align: start;
+    align-self: start;
+  }
+  .texto2{
+    text-align: start;
+    align-self: start;
+  }
+  */
+/*
+.Desencriptar{
+    display: block;
+    margin: 20px auto;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow:  0px 0px 15px -2px rgba(0,0,0,0.25);
+    width: 100%;
+    font-size: 25px;
+   
+    /*background-image: url(imagenes/Muneco.png) ;
+    background-repeat: no-repeat, repeat;
+    background-position:center;*/
+    
+    
+.btnEncriptar{
+    background-color: #0A3871;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .btnDesencriptar{
+    
+    background-color: #D8DFE8;
+    border: none;
+    color:  #0A3871;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #0A3871;
+    width: 100%;
+        
+  }
+  .botonCopiar{
+    visibility: hidden;
+    
+    display: none;
+    background-color: #ffffff;
+    border: none;
+    color:  #0A3871;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #0A3871;
+    width: 100%;
+  }
+.texto1{
+     /* Ningún mensaje fue encontrado */
+
+    display: inline;
+    width: 100%;
+    /*height: 58px;*/
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+  }
+.texto2{
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+    display: inline;
+    width: 100%;
+   /* height: 48px;*/
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+}
+
+  
+  @media (min-width: 480px) {
+    .principal{
+        display: grid;
+        grid-template-columns: 45% 25%;/*repeat(2, 1fr);*/
+        /*grid-gap: 10px;*/
+        justify-content: center;
+
+       
+
+    }
+
+    .textoSalida{
+        justify-content: inherit;
+        /*min-width: 250px;*/
+    }
+    .muneco{
+        visibility: visible;
+        display: inline;
+        
+        width: 100%;
+        height: auto;
+
+
+    }
+     .btnDesencriptar, .btnEncriptar{
+        width: 48%;
+        font-size: 20px;
+        text-align: center;
+        
+    } 
+    .botonCopiar{
+        width: 100%;
+        font-size: 20px;
+
+
+
+    }
+
+    
+  }
+ /* display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+
+element.style {
+    display: grid;
+    grid-template-rows: auto;
+    /* align-content: stretch; 
+    justify-content: space-evenly;
+    align-items: end;
+    justify-items: center;
+
+
+
+*/
+
+
+      
+
+ 
