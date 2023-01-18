@@ -10,15 +10,29 @@
 </head>
 <body>
     <header>
-        <h1>Encriptador/Desencriptador</h1>
+        <div class="contenedor">
+            <div class="headerPrincipal">
+                <div class="logoalura">
+                    <img src="imagenes/logoalura.png" alt="Logo Alura">
+                </div>
+                <div class="tituloPrincipal">
+                    <h1 class="">Encriptador de texto</h1>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <div class="principal">
             <div class="textoEntrada">
                 <form>
                     <textarea class="encriptar" name="" id="txtEncriptar" cols="40" rows="15" placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="mensajePrincipal">
+                        <span class="advertencia">!</span><p class="mensaje" id="mensaje"> Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    
                     <input type="button" class="btnEncriptar" id="btnEncriptar" value="Encriptar">
                     <input type="button" id="btnDesencriptar" class="btnDesencriptar" value="Desencriptar">
+                    
                 </form>
             </div>
             <div class="textoSalida" id="txtsalida">
@@ -37,6 +51,15 @@
 
     </main>
     <footer>
+        <div class="contenedor piePagina">
+            <div class="info1">
+                <p>Encriptador Elebaordo por:</p>
+                <p>Crescencio Mendez Ara</p>
+            </div>
+            <div class="info2">
+
+            </div>
+        </div>
 
     </footer>
 </body>

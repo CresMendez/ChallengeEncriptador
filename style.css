@@ -1,7 +1,37 @@
 body{
     background: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;/*Esto hace que se vaha hasta abajo el footer*/
 }
+header{
+  background: cadetblue;
 
+}
+footer{
+  background: #000000;
+  padding: 20px;
+  margin-top: auto;
+}
+.contenedor{
+padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.headerPrincipal{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.piePagina{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info1{
+  color: white;
+}
 h1{
     font-size: 20px;
     font-weight: bold;
@@ -23,8 +53,8 @@ h1{
 .encriptar{
  
     display: block;
-    position: relative;
-    height: 60vh;
+    position: relative; /*investigar mas sobre posicion relartiva*/
+    height: 50vh;/*investigar mas sobre 50vh*/
     margin: 20px auto;
     background: #F3F5FC;
     width: 100%;
@@ -176,9 +206,41 @@ h1{
     color: #495057;
 
 }
+.mensajePrincipal{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 8px;
+    user-select: none;
+}
+.advertencia{   
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #495057;
+    font-size: 0.87rem;
+    font-weight: 700;
+    color : #F3F5FC;
+}
+.mensaje{
+  display: inline;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+}
 
   
   @media (min-width: 480px) {
+    .headerPrincipal{
+      flex-direction: row;
+      
+    }
     .principal{
         display: grid;
         grid-template-columns: 45% 25%;/*repeat(2, 1fr);*/
@@ -188,6 +250,9 @@ h1{
        
 
     }
+    /*.encriptar{
+      height: 60vh;
+    }*/
 
     .textoSalida{
         justify-content: inherit;
@@ -211,9 +276,10 @@ h1{
     .botonCopiar{
         width: 100%;
         font-size: 20px;
-
-
-
+    }
+    .mensajePrincipal{
+      justify-content: flex-start;
+      padding: 8px;
     }
 
     
