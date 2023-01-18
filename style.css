@@ -10,7 +10,7 @@ header{
 
 }
 footer{
-  background: #000000;
+  background: #046370;
   padding: 20px;
   margin-top: auto;
 }
@@ -26,12 +26,29 @@ padding: 10px;
 }
 .piePagina{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
-.info1{
-  color: white;
+.txt1{
+  width: 15%;
 }
+.logolinkedin{
+  width: 80%;
+}
+.txt2{
+  color:#000b0c;
+  font-weight: bold;
+}
+.txt2 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+
+
 h1{
     font-size: 20px;
     font-weight: bold;
@@ -281,7 +298,10 @@ h1{
       justify-content: flex-start;
       padding: 8px;
     }
-
+    .txt1{
+      
+       max-width:50px;
+    }
     
   }
  /* display: flex;
