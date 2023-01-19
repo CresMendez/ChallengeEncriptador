@@ -6,8 +6,13 @@ body{
     min-height: 100vh;/*Esto hace que se vaha hasta abajo el footer*/
 }
 header{
-  background: cadetblue;
+  background: #046370;
 
+}
+.titulo{
+  color: #a5eff6;
+  font-weight: bold;
+  font-size: 30px;
 }
 footer{
   background: #046370;
@@ -38,7 +43,7 @@ padding: 10px;
   width: 80%;
 }
 .txt2{
-  color:#000b0c;
+  color:#a5eff6;
   font-weight: bold;
 }
 .txt2 a {
@@ -59,7 +64,7 @@ h1{
 }
 
 .principal{
-    margin: 5px;
+    margin: 20px;
     
 }
 .textoEntrada{
@@ -134,7 +139,7 @@ h1{
     
     
 .btnEncriptar{
-    background-color: #0A3871;
+    background-color: #046370;/* #0A3871;*/
     border: none;
     color: white;
     padding: 15px 32px;
@@ -151,7 +156,7 @@ h1{
     
     background-color: #D8DFE8;
     border: none;
-    color:  #0A3871;
+    color:  #046370;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -160,7 +165,7 @@ h1{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
-    border: 1px solid #0A3871;
+    border: 1px solid #046370;
     width: 100%;
         
   }
